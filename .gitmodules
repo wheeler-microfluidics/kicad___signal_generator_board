@@ -1,0 +1,3 @@
+[submodule "library"]
+	path = library
+	url = http://microfluidics.utoronto.ca/git/kicad___wheelerlab_library
