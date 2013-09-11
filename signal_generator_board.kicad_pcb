@@ -59,7 +59,7 @@
     (aux_axis_origin 0 0)
     (visible_elements 7FFFFFFF)
     (pcbplotparams
-      (layerselection 2097152)
+      (layerselection 284983297)
       (usegerberextensions true)
       (excludeedgelayer true)
       (linewidth 0.150000)
@@ -2513,7 +2513,7 @@
   (gr_text 5Vp-p (at 76.0222 42.6466) (layer F.SilkS)
     (effects (font (size 0.8 0.8) (thickness 0.2)))
   )
-  (gr_text "Signal Generator\nBoard v1.0.2\nhttp://microfluidics.utoronto.ca/dropbot" (at 26.4795 51.562) (layer F.SilkS)
+  (gr_text "Signal Generator\nBoard v1.0\nhttp://microfluidics.utoronto.ca/dropbot" (at 26.4795 51.562) (layer F.SilkS)
     (effects (font (size 1.1 0.9) (thickness 0.1875)) (justify left))
   )
 
