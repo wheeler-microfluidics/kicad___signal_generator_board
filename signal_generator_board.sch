@@ -30,14 +30,13 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:wheelerlab
-LIBS:signal_generator_board-cache
 EELAYER 27 0
 EELAYER END
 $Descr User 11000 8500
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "26 aug 2013"
+Date "22 oct 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -643,7 +642,7 @@ L C C4
 U 1 1 51DDCB21
 P 1200 7100
 F 0 "C4" H 1250 7200 50  0000 L CNN
-F 1 "470pF" H 1250 7000 50  0000 L CNN
+F 1 "4.7nF" H 1250 7000 50  0000 L CNN
 F 2 "" H 1200 7100 60  0001 C CNN
 F 3 "" H 1200 7100 60  0001 C CNN
 	1    1200 7100
@@ -665,7 +664,7 @@ L C C7
 U 1 1 51DDCB2D
 P 2750 7100
 F 0 "C7" H 2800 7200 50  0000 L CNN
-F 1 "68pF" H 2800 7000 50  0000 L CNN
+F 1 "680pF" H 2800 7000 50  0000 L CNN
 F 2 "" H 2750 7100 60  0001 C CNN
 F 3 "" H 2750 7100 60  0001 C CNN
 	1    2750 7100

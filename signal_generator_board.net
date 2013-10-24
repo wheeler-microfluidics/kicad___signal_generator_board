@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source C:\Users\ryan\Dropbox\dev\signal_generator_board\signal_generator_board.sch)
-    (date "26/08/2013 6:02:48 PM")
+    (source C:/Users/ryan/Documents/dev/dropbot/electronics/signal_generator_board/signal_generator_board.sch)
+    (date "24/10/2013 2:03:48 PM")
     (tool "eeschema (2013-07-07 BZR 4022)-stable"))
   (components
     (comp (ref C2)
@@ -174,7 +174,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 51DDCB1B))
     (comp (ref C4)
-      (value 470pF)
+      (value 4.7nF)
       (libsource (lib device) (part C))
       (sheetpath (names /) (tstamps /))
       (tstamp 51DDCB21))
@@ -184,7 +184,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 51DDCB27))
     (comp (ref C7)
-      (value 68pF)
+      (value 680pF)
       (libsource (lib device) (part C))
       (sheetpath (names /) (tstamps /))
       (tstamp 51DDCB2D))
