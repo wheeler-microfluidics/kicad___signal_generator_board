@@ -36,7 +36,7 @@ $Descr User 11000 8500
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "22 oct 2013"
+Date "18 dec 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -891,7 +891,7 @@ Text GLabel 4650 7000 2    60   Input ~ 0
 5Vp-p_WAVEOUT
 Text GLabel 4650 6800 2    60   Input ~ 0
 20Vp-p_WAVEOUT
-Text GLabel 7300 3150 3    60   Input ~ 0
+Text GLabel 7300 2750 3    60   Input ~ 0
 5Vp-p_WAVEOUT
 Wire Wire Line
 	7950 2150 7950 2650
@@ -899,17 +899,17 @@ Wire Wire Line
 	8000 6450 7350 6450
 Wire Wire Line
 	7350 6550 7350 6650
-Text GLabel 7350 6650 2    60   Input ~ 0
+Text GLabel 7350 7050 2    60   Input ~ 0
 5Vp-p_WAVEOUT
 $Comp
 L C C12
 U 1 1 51DDD7BF
-P 7300 2950
-F 0 "C12" H 7350 3050 50  0000 L CNN
-F 1 "1uF" H 7350 2850 50  0000 L CNN
-F 2 "" H 7300 2950 60  0001 C CNN
-F 3 "" H 7300 2950 60  0001 C CNN
-	1    7300 2950
+P 7350 6850
+F 0 "C12" H 7400 6950 50  0000 L CNN
+F 1 "1uF" H 7400 6750 50  0000 L CNN
+F 2 "" H 7350 6850 60  0001 C CNN
+F 3 "" H 7350 6850 60  0001 C CNN
+	1    7350 6850
 	1    0    0    -1  
 $EndComp
 Text Notes 5600 4250 0    60   ~ 0
