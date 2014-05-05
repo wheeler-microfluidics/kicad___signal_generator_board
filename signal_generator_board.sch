@@ -30,22 +30,23 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:wheelerlab
+LIBS:signal_generator_board-cache
 EELAYER 27 0
 EELAYER END
-$Descr User 11000 8500
+$Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
-Title ""
-Date "18 dec 2013"
-Rev ""
-Comp ""
+Title "Signal generator board"
+Date "5 may 2014"
+Rev "1.2"
+Comp "Ryan Fobel"
 Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
 Text GLabel 2350 4650 2    60   Input ~ 0
-+5V
+VCC
 Text Notes 650  4450 0    60   ~ 0
 Square wave generator
 NoConn ~ 2350 4950
@@ -75,8 +76,6 @@ F 3 "" H 6700 6350 60  0001 C CNN
 $EndComp
 Text GLabel 7350 6350 2    60   Input ~ 0
 GND
-Text GLabel 6750 6950 0    60   Input ~ 0
-+5V
 $Comp
 L C C9
 U 1 1 5196ABF4
@@ -113,7 +112,7 @@ F 3 "" H 1250 1200 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 Text GLabel 1600 850  2    60   Input ~ 0
-+5V
+VCC
 Text GLabel 1600 950  2    60   Input ~ 0
 GND
 $Comp
@@ -163,7 +162,7 @@ Power bus
 Text GLabel 6250 1350 2    60   Input ~ 0
 D9
 Text GLabel 6250 1450 2    60   Input ~ 0
-D10
+D10/SS
 Text GLabel 6250 1950 2    60   Input ~ 0
 A0
 Text GLabel 6250 2050 2    60   Input ~ 0
@@ -190,11 +189,9 @@ F 3 "" H 5250 2350 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 1650 3450 0    60   Input ~ 0
-+5V
+VCC
 Text GLabel 1100 3550 2    60   Input ~ 0
 +5V_USB
-Text GLabel 5250 950  0    60   Input ~ 0
-+5V
 Text GLabel 1100 3750 2    60   Input ~ 0
 GND
 Text GLabel 2850 3850 2    60   Input ~ 0
@@ -213,8 +210,6 @@ Text GLabel 6250 2950 2    60   Input ~ 0
 D3
 Text GLabel 6250 2850 2    60   Input ~ 0
 D2
-Text GLabel 4350 1450 0    60   Input ~ 0
-+5V
 Text GLabel 5250 3850 0    60   Input ~ 0
 GND
 Text GLabel 1100 3350 2    60   Input ~ 0
@@ -276,52 +271,52 @@ D2
 $Comp
 L NE5532 IC6
 U 1 1 519B9D71
-P 8600 2800
-F 0 "IC6" H 8600 3150 60  0000 C CNN
-F 1 "NE5532" H 8600 2450 60  0000 C CNN
-F 2 "" H 8600 2800 60  0000 C CNN
-F 3 "" H 8600 2800 60  0000 C CNN
-	1    8600 2800
+P 9300 3600
+F 0 "IC6" H 9300 3950 60  0000 C CNN
+F 1 "NE5532" H 9300 3250 60  0000 C CNN
+F 2 "" H 9300 3600 60  0000 C CNN
+F 3 "" H 9300 3600 60  0000 C CNN
+	1    9300 3600
 	1    0    0    -1  
 $EndComp
-Text GLabel 7950 2950 0    60   Input ~ 0
+Text GLabel 8650 3750 0    60   Input ~ 0
 -12V
 $Comp
 L R R8
 U 1 1 519B9E25
-P 7550 2750
-F 0 "R8" V 7630 2750 50  0000 C CNN
-F 1 "25k" V 7550 2750 50  0000 C CNN
-F 2 "" H 7550 2750 60  0001 C CNN
-F 3 "" H 7550 2750 60  0001 C CNN
-	1    7550 2750
+P 8250 3550
+F 0 "R8" V 8330 3550 50  0000 C CNN
+F 1 "25k" V 8250 3550 50  0000 C CNN
+F 2 "" H 8250 3550 60  0001 C CNN
+F 3 "" H 8250 3550 60  0001 C CNN
+	1    8250 3550
 	0    -1   -1   0   
 $EndComp
-Text GLabel 7950 2850 0    60   Input ~ 0
+Text GLabel 8650 3650 0    60   Input ~ 0
 GND
 $Comp
 L R R9
 U 1 1 519B9FDA
-P 7700 2350
-F 0 "R9" V 7780 2350 50  0000 C CNN
-F 1 "100k" V 7700 2350 50  0000 C CNN
-F 2 "" H 7700 2350 60  0001 C CNN
-F 3 "" H 7700 2350 60  0001 C CNN
-	1    7700 2350
+P 8400 3150
+F 0 "R9" V 8480 3150 50  0000 C CNN
+F 1 "100k" V 8400 3150 50  0000 C CNN
+F 2 "" H 8400 3150 60  0001 C CNN
+F 3 "" H 8400 3150 60  0001 C CNN
+	1    8400 3150
 	0    1    1    0   
 $EndComp
 $Comp
 L C C13
 U 1 1 519BA1AB
-P 7750 2150
-F 0 "C13" H 7800 2250 50  0000 L CNN
-F 1 "5pF" H 7800 2050 50  0000 L CNN
-F 2 "" H 7750 2150 60  0001 C CNN
-F 3 "" H 7750 2150 60  0001 C CNN
-	1    7750 2150
+P 8450 2950
+F 0 "C13" H 8500 3050 50  0000 L CNN
+F 1 "5pF" H 8500 2850 50  0000 L CNN
+F 2 "" H 8450 2950 60  0001 C CNN
+F 3 "" H 8450 2950 60  0001 C CNN
+	1    8450 2950
 	0    -1   -1   0   
 $EndComp
-Text GLabel 7950 3350 0    60   Input ~ 0
+Text GLabel 8650 4150 0    60   Input ~ 0
 GND
 $Comp
 L CONN_6 P6
@@ -337,12 +332,12 @@ $EndComp
 Text GLabel 3250 1150 2    60   Input ~ 0
 RST
 Text GLabel 4350 7800 2    60   Input ~ 0
-+5V
+VCC
 Text GLabel 3250 1250 2    60   Input ~ 0
 GND
 Text Notes 2800 650  0    60   ~ 0
-ICSP
-Text Notes 8000 2100 0    60   ~ 0
+ISP header
+Text Notes 8700 2900 0    60   ~ 0
 Ouptut waveform 20Vp-p
 $Comp
 L CONN_2 P5
@@ -357,30 +352,30 @@ F 3 "" H 1850 2500 60  0000 C CNN
 $EndComp
 Text GLabel 2200 2400 2    60   Input ~ 0
 GND
-Text GLabel 7950 2350 2    60   Input ~ 0
+Text GLabel 8650 3150 2    60   Input ~ 0
 20Vp-p_WAVEOUT
 Text GLabel 2200 2600 2    60   Input ~ 0
 WAVEOUT
 $Comp
 L C C15
 U 1 1 519BB159
-P 7950 3150
-F 0 "C15" H 8000 3250 50  0000 L CNN
-F 1 "0.1uF" H 8000 3050 50  0000 L CNN
-F 2 "" H 7950 3150 60  0001 C CNN
-F 3 "" H 7950 3150 60  0001 C CNN
-	1    7950 3150
+P 8650 3950
+F 0 "C15" H 8700 4050 50  0000 L CNN
+F 1 "0.1uF" H 8700 3850 50  0000 L CNN
+F 2 "" H 8650 3950 60  0001 C CNN
+F 3 "" H 8650 3950 60  0001 C CNN
+	1    8650 3950
 	1    0    0    -1  
 $EndComp
 $Comp
 L C C16
 U 1 1 519BB162
-P 9250 2450
-F 0 "C16" H 9300 2550 50  0000 L CNN
-F 1 "0.1uF" H 9300 2350 50  0000 L CNN
-F 2 "" H 9250 2450 60  0001 C CNN
-F 3 "" H 9250 2450 60  0001 C CNN
-	1    9250 2450
+P 9950 3250
+F 0 "C16" H 10000 3350 50  0000 L CNN
+F 1 "0.1uF" H 10000 3150 50  0000 L CNN
+F 2 "" H 9950 3250 60  0001 C CNN
+F 3 "" H 9950 3250 60  0001 C CNN
+	1    9950 3250
 	1    0    0    -1  
 $EndComp
 Text GLabel 6250 1750 2    60   Input ~ 0
@@ -425,14 +420,14 @@ L R R10
 U 1 1 519BDE31
 P 2450 1000
 F 0 "R10" V 2530 1000 50  0000 C CNN
-F 1 "374" V 2450 1000 50  0000 C CNN
+F 1 "1k" V 2450 1000 50  0000 C CNN
 F 2 "" H 2450 1000 60  0001 C CNN
 F 3 "" H 2450 1000 60  0001 C CNN
 	1    2450 1000
 	-1   0    0    1   
 $EndComp
-Text GLabel 2450 750  2    60   Input ~ 0
-+5V
+Text GLabel 5250 950  0    60   Input ~ 0
+VCC
 $Comp
 L CONN_3 P7
 U 1 1 519D00BF
@@ -446,21 +441,19 @@ F 3 "" H 4300 6900 60  0000 C CNN
 $EndComp
 Text GLabel 4650 6900 2    60   Input ~ 0
 WAVEOUT
-Text GLabel 9250 2250 2    60   Input ~ 0
+Text GLabel 9950 3050 2    60   Input ~ 0
 GND
 $Comp
 L C C17
 U 1 1 51DDB2C9
-P 9250 4300
-F 0 "C17" H 9300 4400 50  0000 L CNN
-F 1 "0.1uF" H 9000 4200 50  0000 L CNN
-F 2 "" H 9250 4300 60  0001 C CNN
-F 3 "" H 9250 4300 60  0001 C CNN
-	1    9250 4300
+P 10050 6950
+F 0 "C17" H 10100 7050 50  0000 L CNN
+F 1 "0.1uF" H 9800 6850 50  0000 L CNN
+F 2 "" H 10050 6950 60  0001 C CNN
+F 3 "" H 10050 6950 60  0001 C CNN
+	1    10050 6950
 	-1   0    0    1   
 $EndComp
-Text GLabel 9250 4000 2    60   Input ~ 0
-+5V
 NoConn ~ 4350 1550
 $Comp
 L CRYSTAL X1
@@ -542,7 +535,7 @@ F 3 "" H 3400 4500 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 3400 4700 0    60   Input ~ 0
-+5V
+VCC
 Text GLabel 3400 5300 0    60   Input ~ 0
 GND
 Text GLabel 3400 4300 0    60   Input ~ 0
@@ -577,7 +570,7 @@ D11/MOSI
 Text GLabel 4750 4700 0    60   Input ~ 0
 D13/SCK
 Text GLabel 5250 4350 0    60   Input ~ 0
-+5V
+VCC
 Text GLabel 5150 5300 3    60   Input ~ 0
 GND
 Text GLabel 5500 4850 2    60   Input ~ 0
@@ -670,8 +663,6 @@ F 3 "" H 2750 7100 60  0001 C CNN
 	1    2750 7100
 	0    -1   -1   0   
 $EndComp
-Text GLabel 1700 6150 0    60   Input ~ 0
-+5V
 Text GLabel 1700 6650 0    60   Input ~ 0
 GND
 $Comp
@@ -718,8 +709,6 @@ F 3 "" H 1150 7500 60  0001 C CNN
 	1    1150 7500
 	0    -1   -1   0   
 $EndComp
-Text GLabel 900  7500 0    60   Input ~ 0
-+5V
 Text GLabel 1400 7900 2    60   Input ~ 0
 GND
 Text GLabel 6850 5450 0    60   Input ~ 0
@@ -766,19 +755,19 @@ Wire Wire Line
 Connection ~ 1850 3450
 Connection ~ 1850 3850
 Wire Wire Line
-	7800 2750 7950 2750
+	8500 3550 8650 3550
 Wire Wire Line
-	7800 2750 7800 2500
+	8500 3550 8500 3300
 Wire Wire Line
-	7800 2500 7450 2500
+	8500 3300 8150 3300
 Wire Wire Line
-	7450 2500 7450 2150
+	8150 3300 8150 2950
 Wire Wire Line
-	7450 2150 7550 2150
-Connection ~ 7450 2350
-Connection ~ 7950 2350
+	8150 2950 8250 2950
+Connection ~ 8150 3150
+Connection ~ 8650 3150
 Wire Wire Line
-	9250 2750 9250 2850
+	9950 3550 9950 3650
 Wire Wire Line
 	4350 1800 4350 1950
 Connection ~ 4100 1800
@@ -891,10 +880,10 @@ Text GLabel 4650 7000 2    60   Input ~ 0
 5Vp-p_WAVEOUT
 Text GLabel 4650 6800 2    60   Input ~ 0
 20Vp-p_WAVEOUT
-Text GLabel 7300 2750 3    60   Input ~ 0
+Text GLabel 8000 3550 3    60   Input ~ 0
 5Vp-p_WAVEOUT
 Wire Wire Line
-	7950 2150 7950 2650
+	8650 2950 8650 3450
 Wire Wire Line
 	8000 6450 7350 6450
 Wire Wire Line
@@ -914,39 +903,39 @@ F 3 "" H 7350 6850 60  0001 C CNN
 $EndComp
 Text Notes 5600 4250 0    60   ~ 0
 Low-pass filter and adjust amplitude
-Text GLabel 9250 2650 2    60   Input ~ 0
+Text GLabel 9950 3450 2    60   Input ~ 0
 +12V
-Text GLabel 9250 2950 2    60   Input ~ 0
+Text GLabel 9950 3750 2    60   Input ~ 0
 GND
 $Comp
 L TLE2426 U3
 U 1 1 51DDDEAE
-P 8700 3900
-F 0 "U3" H 8900 3600 60  0000 C CNN
-F 1 "TLE2426" H 8700 3900 60  0000 C CNN
-F 2 "" H 8700 3900 60  0000 C CNN
-F 3 "" H 8700 3900 60  0000 C CNN
-	1    8700 3900
+P 9500 6550
+F 0 "U3" H 9700 6250 60  0000 C CNN
+F 1 "TLE2426" H 9500 6550 60  0000 C CNN
+F 2 "" H 9500 6550 60  0000 C CNN
+F 3 "" H 9500 6550 60  0000 C CNN
+	1    9500 6550
 	1    0    0    -1  
 $EndComp
-Text GLabel 8150 4000 0    60   Input ~ 0
+Text GLabel 8950 6650 0    60   Input ~ 0
 VGND
-Text GLabel 8150 4100 0    60   Input ~ 0
+Text GLabel 8950 6750 0    60   Input ~ 0
 GND
 $Comp
 L C C14
 U 1 1 51DDCC65
-P 9250 3800
-F 0 "C14" H 9300 3900 50  0000 L CNN
-F 1 "0.1uF" H 9000 3700 50  0000 L CNN
-F 2 "" H 9250 3800 60  0001 C CNN
-F 3 "" H 9250 3800 60  0001 C CNN
-	1    9250 3800
+P 10050 6450
+F 0 "C14" H 10100 6550 50  0000 L CNN
+F 1 "0.1uF" H 9800 6350 50  0000 L CNN
+F 2 "" H 10050 6450 60  0001 C CNN
+F 3 "" H 10050 6450 60  0001 C CNN
+	1    10050 6450
 	-1   0    0    1   
 $EndComp
-Text GLabel 9250 3600 0    60   Input ~ 0
+Text GLabel 10050 6250 0    60   Input ~ 0
 GND
-Text GLabel 9250 4500 0    60   Input ~ 0
+Text GLabel 10050 7150 0    60   Input ~ 0
 GND
 Text Notes 4200 6650 0    60   ~ 0
 Jumpers
@@ -1011,5 +1000,193 @@ $EndComp
 Text GLabel 4350 7200 2    60   Input ~ 0
 +5V_USB
 Text GLabel 3250 850  2    60   Input ~ 0
-+5V
+VCC
+$Comp
+L 7400 U4
+U 1 1 53640FDC
+P 7850 1750
+F 0 "U4" H 7850 1800 60  0000 C CNN
+F 1 "7400" H 7850 1650 60  0000 C CNN
+F 2 "~" H 7850 1750 60  0000 C CNN
+F 3 "~" H 7850 1750 60  0000 C CNN
+	1    7850 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L 7400 U4
+U 4 1 53640FE9
+P 9050 2100
+F 0 "U4" H 9050 2150 60  0000 C CNN
+F 1 "7400" H 9050 2000 60  0000 C CNN
+F 2 "~" H 9050 2100 60  0000 C CNN
+F 3 "~" H 9050 2100 60  0000 C CNN
+	4    9050 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L 7400 U4
+U 2 1 53640FEF
+P 7850 1200
+F 0 "U4" H 7850 1250 60  0000 C CNN
+F 1 "7400" H 7850 1100 60  0000 C CNN
+F 2 "~" H 7850 1200 60  0000 C CNN
+F 3 "~" H 7850 1200 60  0000 C CNN
+	2    7850 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L 7400 U4
+U 3 1 53640FF5
+P 7850 2450
+F 0 "U4" H 7850 2500 60  0000 C CNN
+F 1 "7400" H 7850 2350 60  0000 C CNN
+F 2 "~" H 7850 2450 60  0000 C CNN
+F 3 "~" H 7850 2450 60  0000 C CNN
+	3    7850 2450
+	1    0    0    -1  
+$EndComp
+Text GLabel 1600 1650 2    60   Input ~ 0
+D10/SS
+Text GLabel 1600 1350 2    60   Input ~ 0
+D13/SCK
+Text GLabel 1600 1550 2    60   Input ~ 0
+D12/MISO
+Text GLabel 1600 1450 2    60   Input ~ 0
+D11/MOSI
+Text GLabel 7250 2350 0    60   Input ~ 0
+A4/SDA
+Text GLabel 7250 1100 0    60   Input ~ 0
+A5/SCL
+Text GLabel 7050 1850 0    60   Input ~ 0
+D7
+Wire Wire Line
+	7250 1300 7250 1450
+Wire Wire Line
+	7250 1450 8450 1450
+Wire Wire Line
+	8450 1450 8450 2000
+Wire Wire Line
+	7250 1650 7250 1500
+Wire Wire Line
+	7250 1500 8500 1500
+Wire Wire Line
+	8500 1500 8500 1200
+Wire Wire Line
+	8500 1200 8450 1200
+$Comp
+L R R4
+U 1 1 53641562
+P 7050 1600
+F 0 "R4" V 7130 1600 40  0000 C CNN
+F 1 "1k" V 7057 1601 40  0000 C CNN
+F 2 "~" V 6980 1600 30  0000 C CNN
+F 3 "~" H 7050 1600 30  0000 C CNN
+	1    7050 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7050 1850 7250 1850
+Text GLabel 7050 1350 0    60   Input ~ 0
+VCC
+Text GLabel 7250 2550 0    60   Input ~ 0
+VCC
+Text GLabel 7650 2650 3    60   Input ~ 0
+GND
+Text GLabel 8000 800  1    60   Input ~ 0
+VCC
+Connection ~ 8450 1750
+Wire Wire Line
+	8450 2200 8450 2450
+$Comp
+L R R6
+U 1 1 536416C3
+P 9400 1700
+F 0 "R6" V 9480 1700 40  0000 C CNN
+F 1 "1k" V 9407 1701 40  0000 C CNN
+F 2 "~" V 9330 1700 30  0000 C CNN
+F 3 "~" H 9400 1700 30  0000 C CNN
+	1    9400 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D3
+U 1 1 536416C9
+P 9650 1900
+F 0 "D3" H 9650 1800 50  0000 C CNN
+F 1 "RST" H 9650 2000 50  0000 C CNN
+F 2 "~" H 9650 1900 60  0000 C CNN
+F 3 "~" H 9650 1900 60  0000 C CNN
+	1    9650 1900
+	0    1    1    0   
+$EndComp
+Text GLabel 9150 1700 0    60   Input ~ 0
+VCC
+$Comp
+L R R5
+U 1 1 536416DC
+P 8250 800
+F 0 "R5" V 8330 800 40  0000 C CNN
+F 1 "1k" V 8257 801 40  0000 C CNN
+F 2 "~" V 8180 800 30  0000 C CNN
+F 3 "~" H 8250 800 30  0000 C CNN
+	1    8250 800 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D2
+U 1 1 536416E2
+P 8500 1000
+F 0 "D2" H 8500 900 50  0000 C CNN
+F 1 "PROG_MODE" H 8500 1100 50  0000 C CNN
+F 2 "~" H 8500 1000 60  0000 C CNN
+F 3 "~" H 8500 1000 60  0000 C CNN
+	1    8500 1000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7650 1000 7650 800 
+Wire Wire Line
+	7650 800  8000 800 
+$Comp
+L JUMPER JP2
+U 1 1 536419F8
+P 9950 2100
+F 0 "JP2" H 9950 2250 60  0000 C CNN
+F 1 "JUMPER" H 9950 2020 40  0000 C CNN
+F 2 "~" H 9950 2100 60  0000 C CNN
+F 3 "~" H 9950 2100 60  0000 C CNN
+	1    9950 2100
+	1    0    0    -1  
+$EndComp
+Text Notes 6900 650  0    60   ~ 0
+ISP latch
+Text GLabel 4350 1450 0    60   Input ~ 0
+VCC
+Text GLabel 1700 6150 0    60   Input ~ 0
+VCC
+Text GLabel 900  7500 0    60   Input ~ 0
+VCC
+Text GLabel 6750 6950 0    60   Input ~ 0
+VCC
+Text GLabel 10050 6650 2    60   Input ~ 0
+VCC
+Text GLabel 2450 750  0    60   Input ~ 0
+VCC
+Text GLabel 10250 2100 2    60   Input ~ 0
+RST
+$Comp
+L C C19
+U 1 1 5367C94C
+P 7450 800
+F 0 "C19" H 7500 900 50  0000 L CNN
+F 1 "0.1uF" H 7500 700 50  0000 L CNN
+F 2 "" H 7450 800 60  0001 C CNN
+F 3 "" H 7450 800 60  0001 C CNN
+F 4 "GRM188F51E104ZA01" H 7450 800 60  0001 C CNN "Field1"
+F 5 "http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=490-1575-1-ND" H 7450 800 60  0001 C CNN "Field2"
+	1    7450 800 
+	0    -1   -1   0   
+$EndComp
+Text GLabel 7250 800  0    60   Input ~ 0
+GND
 $EndSCHEMATC
