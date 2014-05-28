@@ -1,4 +1,4 @@
-update=25/07/2013 5:55:19 PM
+update=27/05/2014 8:18:10 PM
 version=1
 last_client=eeschema
 [pcbnew]
@@ -31,13 +31,13 @@ LibName9=led
 LibName10=dip_sockets
 LibName11=wheelerlab
 LibDir=library
-[general]
-version=1
 [cvpcb]
 version=1
 NetIExt=net
 [cvpcb/libraries]
 EquName1=devcms
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=library

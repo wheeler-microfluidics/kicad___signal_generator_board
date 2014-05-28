@@ -37,7 +37,7 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "Signal generator board"
-Date "5 may 2014"
+Date "28 may 2014"
 Rev "1.2"
 Comp "Ryan Fobel"
 Comment1 ""
@@ -58,8 +58,6 @@ F 0 "C2" H 1850 5450 50  0000 L CNN
 F 1 "0.1uF" H 1850 5250 50  0000 L CNN
 F 2 "" H 1800 5350 60  0001 C CNN
 F 3 "" H 1800 5350 60  0001 C CNN
-F 4 "GRM188F51E104ZA01" H 1800 5350 60  0001 C CNN "Field1"
-F 5 "http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=490-1575-1-ND" H 1800 5350 60  0001 C CNN "Field2"
 	1    1800 5350
 	1    0    0    -1  
 $EndComp
@@ -199,17 +197,11 @@ GND
 Text GLabel 6250 1250 2    60   Input ~ 0
 D8
 Text GLabel 6250 3350 2    60   Input ~ 0
-D7
-Text GLabel 6250 3250 2    60   Input ~ 0
-D6
-Text GLabel 6250 3150 2    60   Input ~ 0
-D5
+D7/ISP_ENABLE
 Text GLabel 6250 3050 2    60   Input ~ 0
-D4
+D4/FREQ_RANGE
 Text GLabel 6250 2950 2    60   Input ~ 0
-D3
-Text GLabel 6250 2850 2    60   Input ~ 0
-D2
+D3/AD5206_SS
 Text GLabel 5250 3850 0    60   Input ~ 0
 GND
 Text GLabel 1100 3350 2    60   Input ~ 0
@@ -266,8 +258,6 @@ F 3 "" H 750 3500 60  0001 C CNN
 $EndComp
 Text Notes 650  3000 0    60   ~ 0
 Arduino programming interface
-Text GLabel 1050 4950 0    60   Input ~ 0
-D2
 $Comp
 L NE5532 IC6
 U 1 1 519B9D71
@@ -395,9 +385,9 @@ A5/SCL
 Text GLabel 1600 750  2    60   Input ~ 0
 A4/SDA
 Text GLabel 1050 4750 0    60   Input ~ 0
-D11/MOSI
+D6/S_MOSI
 Text GLabel 1050 4850 0    60   Input ~ 0
-D13/SCK
+D5/S_SCK
 Text GLabel 6250 2450 2    60   Input ~ 0
 A5/SCL
 Text GLabel 6250 2350 2    60   Input ~ 0
@@ -565,16 +555,10 @@ F 3 "~" H 6100 4850 60  0000 C CNN
 	1    6100 4850
 	1    0    0    -1  
 $EndComp
-Text GLabel 4750 5000 0    60   Input ~ 0
-D11/MOSI
-Text GLabel 4750 4700 0    60   Input ~ 0
-D13/SCK
 Text GLabel 5250 4350 0    60   Input ~ 0
 VCC
 Text GLabel 5150 5300 3    60   Input ~ 0
 GND
-Text GLabel 5500 4850 2    60   Input ~ 0
-D3
 $Comp
 L 4066 U1
 U 1 1 51DDCA5F
@@ -673,8 +657,6 @@ F 0 "C5" H 1750 6050 50  0000 L CNN
 F 1 "0.1uF" H 1750 5850 50  0000 L CNN
 F 2 "" H 1700 5950 60  0001 C CNN
 F 3 "" H 1700 5950 60  0001 C CNN
-F 4 "GRM188F51E104ZA01" H 1700 5950 60  0001 C CNN "Field1"
-F 5 "http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=490-1575-1-ND" H 1700 5950 60  0001 C CNN "Field2"
 	1    1700 5950
 	1    0    0    -1  
 $EndComp
@@ -692,12 +674,6 @@ Text GLabel 6450 4550 1    60   Input ~ 0
 C1A
 Text GLabel 6050 6050 0    60   Input ~ 0
 C1B
-Text GLabel 1100 7750 0    60   Input ~ 0
-D4
-Text GLabel 2950 6550 0    60   Input ~ 0
-D4
-Text GLabel 1400 6550 0    60   Input ~ 0
-D4
 $Comp
 L R R2
 U 1 1 51DDCC5F
@@ -1057,8 +1033,6 @@ Text GLabel 7250 2350 0    60   Input ~ 0
 A4/SDA
 Text GLabel 7250 1100 0    60   Input ~ 0
 A5/SCL
-Text GLabel 7050 1850 0    60   Input ~ 0
-D7
 Wire Wire Line
 	7250 1300 7250 1450
 Wire Wire Line
@@ -1152,7 +1126,7 @@ L JUMPER JP2
 U 1 1 536419F8
 P 9950 2100
 F 0 "JP2" H 9950 2250 60  0000 C CNN
-F 1 "JUMPER" H 9950 2020 40  0000 C CNN
+F 1 "ISP RESET" H 9950 2020 40  0000 C CNN
 F 2 "~" H 9950 2100 60  0000 C CNN
 F 3 "~" H 9950 2100 60  0000 C CNN
 	1    9950 2100
@@ -1182,11 +1156,47 @@ F 0 "C19" H 7500 900 50  0000 L CNN
 F 1 "0.1uF" H 7500 700 50  0000 L CNN
 F 2 "" H 7450 800 60  0001 C CNN
 F 3 "" H 7450 800 60  0001 C CNN
-F 4 "GRM188F51E104ZA01" H 7450 800 60  0001 C CNN "Field1"
-F 5 "http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=490-1575-1-ND" H 7450 800 60  0001 C CNN "Field2"
 	1    7450 800 
 	0    -1   -1   0   
 $EndComp
 Text GLabel 7250 800  0    60   Input ~ 0
 GND
+NoConn ~ 6250 1250
+NoConn ~ 6250 1350
+NoConn ~ 6250 1950
+NoConn ~ 6250 2050
+NoConn ~ 6250 2150
+NoConn ~ 6250 2250
+Text GLabel 4750 4700 0    60   Input ~ 0
+D5/S_SCK
+Text GLabel 6250 3250 2    60   Input ~ 0
+D6/S_MOSI
+Text GLabel 4750 5000 0    60   Input ~ 0
+D6/S_MOSI
+Text GLabel 6250 3150 2    60   Input ~ 0
+D5/S_SCK
+Text GLabel 5500 4850 3    60   Input ~ 0
+D3/AD5206_SS
+Text GLabel 1050 4950 3    60   Input ~ 0
+D2/LTC6904_SS
+Text GLabel 6250 2850 2    60   Input ~ 0
+D2/LTC6904_SS
+Text GLabel 7250 2050 0    60   Input ~ 0
+D7/ISP_ENABLE
+Wire Wire Line
+	7250 1850 7250 2050
+Text GLabel 2350 7650 0    60   Input ~ 0
+D4/FREQ_RANGE
+Wire Wire Line
+	1100 7750 1100 6550
+Wire Wire Line
+	1100 6550 1400 6550
+Wire Wire Line
+	1100 6850 2950 6850
+Wire Wire Line
+	2950 6850 2950 6550
+Connection ~ 1100 6850
+Wire Wire Line
+	2350 7650 2350 6850
+Connection ~ 2350 6850
 $EndSCHEMATC
