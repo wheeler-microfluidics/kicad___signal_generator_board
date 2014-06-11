@@ -1,36 +1,36 @@
-Reference Designator,Description,Manufacturer,Part No.,Qty
-"C1-2, C5, C8-9, C14-19","Capacitor, Ceramic, 0.1uf, 10%, 50V, X7R",KEMET ELECTRONICS CORPORATION,C1206C104K5RACTU,11
-C12,"Capacitor, Ceramic, 1uF, 100V, X7R, 1206","SAMSUNG ELECTRO-MECHANICS AMERICA, INC",CL31B105KCHSNNE,1
-C10-11,"Capacitor, Ceramic, 22pF, 100V, X7R, 1206","SAMSUNG ELECTRO-MECHANICS AMERICA, INC",CL31C220JCCNNNC,2
-C3,"Capacitor, Ceramic, 0.047uF, 50V, 5%, NP0, 1206",TDK Corporation,C3216NP01H473J115AA,1
-C4,"Capacitor, Ceramic, 4700pF, 50V, 5%, NP0, 1206","SAMSUNG ELECTRO-MECHANICS AMERICA, INC",CL31C472JBFNFNE,1
-C6,"Capacitor, Ceramic, 6800pF, 50V, 5%, NP0, 1206","SAMSUNG ELECTRO-MECHANICS AMERICA, INC",CL31C682JBHNNNE,1
-C7,"Capacitor, Ceramic, 680pF, 630V, 5%, NP0, 1206",TDK Corporation,C3216C0G2J681J085AA,1
-D1-3,"LED, Vis, Solid State, Green, 1206",KINGBRIGHT COMPANY LLC,APL3015SGC-F01,3
-IC1,IC DGTL POT 256POS 100K,ANALOG DEVICES INC,AD5206BRZ100,1
-IC5,"IC, Opamp, Quad, R-R, 14-SOIC",MICROCHIP TECHNOLOGY,MCP6024-I/SL,1
-IC6,"IC, Opamp, GP, 10MHz Dual, 8SOIC",TEXAS INSTRUMENTS,NE5532DR,1
-IC7,"IC, MCU 8bit 32KB FLASH 28DIP",ATMEL,ATMEGA328P-PU,1
-IC8,"IC, Programmable Oscillator, SPI, 8-MSOP",LINEAR TECHNOLOGY,LTC6903CMS8#PBF,1
-"P1, P4","Connector, PCB, Right Angle, 10 Position",OMRON ELECTRONICS INC,XG4A-1034,2
-P2,"Mini-Fit Jr Connection header, 8POS 4.2MM R/A TIN",MOLEX INC,39301080,1
-P3,"Male Headers Pins, 0.1"" spacing, 6x1, R/A",SULLINS CONNECTOR SOLUTIONS,NRPN061PARN-RC,1
-P5,"Connector, PCB, Right Angle, BNC",TYCO ELECTRONICS,5227161-2,1
-P6,"Male Headers Pins, 0.1"" spacing, 3x2",HARWIN INC,M20-9980346,1
-P7,"Male Headers Pins, 0.1"" spacing, 3x1",OMRON ELECTRONICS INC,XG8S-0331,1
-JP1-2,"Male Headers Pins, 0.1"" spacing, 2x1",HARWIN INC,M20-9990246,2
-Q1,MOSFET N-CH 60V SOT-23,NXP SEMICONDUCTORS,"2N7002P,215",1
-"R1, R4-6, R10","Resistor, Metal Film, 10k, 1%, 1/4W, 1206",STACKPOLE ELECTRONICS INC,RMCF1206FT10K0,5
-R2,"Resistor, Metal Film, 1k, 1%, 1/4W, 1206",STACKPOLE ELECTRONICS INC,RMCF1206FT1K00,1
-R3,"Resistor, Metal Film, 1M, 1%, 1/4W, 1206",STACKPOLE ELECTRONICS INC,RMCF1206FT1M00,1
-R8,"Resistor, Metal Film, 24k, 5%, 1/4W, 1206",STACKPOLE ELECTRONICS INC,RMCF1206JT24K0,1
-R9,"Resistor, Metal Film, 100k, 1%, 1/4W, 1206",STACKPOLE ELECTRONICS INC,RMCF1206FT100K,1
-SW1,"Switch Tactile, SPST-NO, 0.05A 12V",C&K Components,PTS645SK43 LFS,1
-U1,"IC, SWITCH QUAD 1X1 ",NXP SEMICONDUCTORS,74HCT4066D,1
-U2,DUAL 4BIT BINRY COUNTR,TEXAS INSTRUMENTS,SN74HC393DR,1
-U3,IC VREF GND REF PREC ADJ,TEXAS INSTRUMENTS,TLE2426CD,1
-U4,IC Quad 2-IN NAND Gate,TEXAS INSTRUMENTS,SN74LV00ADR,1
-X1,CRYSTAL 16MHZ 18PF THRU,CITIZEN FINETECH MIYOTA,HC49US-16.000MABJ-UB,1
-S1-3,"SHUNT JUMPER .1""",3M,969102-0000-DA,3
-,,,,
-Notes:,C13 and S1-3,,,
+Item #,Qty,Reference Designator,Description,Package,Type,Manufacturer,Part No.,Digikey Part No.,Link
+1,11,"C1-2, C5, C8-9, C14-19","Capacitor, Ceramic, 0.1uf, 10%, 50V, X7R",1206,SMT,KEMET ELECTRONICS CORPORATION,C1206C104K5RACTU,399-1249-1-ND,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=399-1249-1-ND
+2,1,C12,"Capacitor, Ceramic, 1uF, 100V, X7R, 1206",1206,SMT,"SAMSUNG ELECTRO-MECHANICS AMERICA, INC",CL31B105KCHSNNE,1276-2747-1-ND,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=1276-2747-1-ND
+3,2,C10-11,"Capacitor, Ceramic, 22pF, 100V, X7R, 1206",1206,SMT,"SAMSUNG ELECTRO-MECHANICS AMERICA, INC",CL31C220JCCNNNC,1276-2820-1-ND,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=1276-2820-1-ND
+4,1,C3,"Capacitor, Ceramic, 0.047uF, 50V, 5%, NP0, 1206",1206,SMT,TDK Corporation,C3216NP01H473J115AA,445-14660-1-ND,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=445-14660-1-ND
+5,1,C4,"Capacitor, Ceramic, 4700pF, 50V, 5%, NP0, 1206",1206,SMT,"SAMSUNG ELECTRO-MECHANICS AMERICA, INC",CL31C472JBFNFNE,1276-3280-1-ND,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=1276-3280-1-N
+6,1,C6,"Capacitor, Ceramic, 6800pF, 50V, 5%, NP0, 1206",1206,SMT,"SAMSUNG ELECTRO-MECHANICS AMERICA, INC",CL31C682JBHNNNE,1276-3292-1-ND,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=1276-3292-1-ND
+7,1,C7,"Capacitor, Ceramic, 680pF, 630V, 5%, NP0, 1206",1206,SMT,TDK Corporation,C3216C0G2J681J085AA,445-2341-1-ND,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=445-2341-1-ND
+8,5,"R1, R4-6, R10","Resistor, Metal Film, 10k, 1%, 1/4W, 1206",1206,SMT,STACKPOLE ELECTRONICS INC,RMCF1206FT10K0,RMCF1206FT10K0CT-ND,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=RMCF1206FT10K0CT-ND
+9,1,R2,"Resistor, Metal Film, 1k, 1%, 1/4W, 1206",1206,SMT,STACKPOLE ELECTRONICS INC,RMCF1206FT1K00,RMCF1206FT1K00,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=RMCF1206FT1K00
+10,1,R3,"Resistor, Metal Film, 1M, 1%, 1/4W, 1206",1206,SMT,STACKPOLE ELECTRONICS INC,RMCF1206FT1M00,RMCF1206FT1M00CT-ND,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=RMCF1206FT1M00CT-ND
+11,1,R8,"Resistor, Metal Film, 24k, 5%, 1/4W, 1206",1206,SMT,STACKPOLE ELECTRONICS INC,RMCF1206JT24K0,RMCF1206JT24K0CT-ND,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=RMCF1206JT24K0CT-ND
+12,1,R9,"Resistor, Metal Film, 100k, 1%, 1/4W, 1206",1206,SMT,STACKPOLE ELECTRONICS INC,RMCF1206FT100K,RMCF1206FT100KCT-ND,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=RMCF1206FT100KCT-ND
+13,3,D1-3,"LED, Vis, Solid State, Green, 1206",1206,SMT,KINGBRIGHT COMPANY LLC,APL3015SGC-F01,754-1111-1-ND,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=754-1111-1-ND
+14,1,IC1,IC DGTL POT 256POS 100K,24-SOIC,SMT,ANALOG DEVICES INC,AD5206BRZ100,AD5206BRZ100-ND,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=AD5206BRZ100-ND
+15,1,IC5,"IC, Opamp, Quad, R-R, 14-SOIC",14-SOIC,SMT,MICROCHIP TECHNOLOGY,MCP6024-I/SL,MCP6024-I/SL-ND,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=MCP6024-I/SL-ND
+16,1,IC6,"IC, Opamp, GP, 10MHz Dual, 8SOIC",8-SOIC,SMT,TEXAS INSTRUMENTS,NE5532DR,296-13622-1-ND,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=296-13622-1-ND
+17,1,IC7,"IC, MCU 8bit 32KB FLASH 28DIP",28-DIP,Through-hole,ATMEL,ATMEGA328P-PU,ATMEGA328P-PU-ND,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=ATMEGA328P-PU-ND
+18,1,IC8,"IC, Programmable Oscillator, SPI, 8-MSOP",8-MSOP,SMT,LINEAR TECHNOLOGY,LTC6903CMS8#PBF,LTC6903CMS8%23PBF-ND,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=LTC6903CMS8%23PBF-ND
+19,2,"P1, P4","Connector, PCB, Right Angle, 10 Position",header,Through-hole,OMRON ELECTRONICS INC,XG4A-1034,OR1001-ND,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=OR1001-ND
+20,1,P2,"Mini-Fit Jr Connection header, 8POS 4.2MM R/A TIN",header,Through-hole,MOLEX INC,39301080,WM1354-ND,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=WM1354-ND
+21,1,P3,"Male Headers Pins, 0.1"" spacing, 6x1, R/A",header,Through-hole,SULLINS CONNECTOR SOLUTIONS,NRPN061PARN-RC,S5802-06-ND,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=S5802-06-ND
+22,1,P5,"Connector, PCB, Right Angle, BNC",connector,Through-hole,TYCO ELECTRONICS,5227161-2,A32245-ND,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=A32245-ND
+23,1,P6,"Male Headers Pins, 0.1"" spacing, 3x2",header,Through-hole,HARWIN INC,M20-9980346,952-2121-ND,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=952-2121-ND
+24,1,P7,"Male Headers Pins, 0.1"" spacing, 3x1",header,Through-hole,OMRON ELECTRONICS INC,XG8S-0331,OR1104-ND,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=OR1104-ND
+25,2,JP1-2,"Male Headers Pins, 0.1"" spacing, 2x1",header,Through-hole,HARWIN INC,M20-9990246,952-2262-ND,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=952-2262-ND
+26,1,Q1,MOSFET N-CH 60V SOT-23,SOT-23,SMT,NXP SEMICONDUCTORS,"2N7002P,215",568-5818-1-ND,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=568-5818-1-ND
+27,1,SW1,"Switch Tactile, SPST-NO, 0.05A 12V",button,Through-hole,C&K Components,PTS645SK43 LFS,CKN9090-ND,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=CKN9090-ND
+28,1,U1,"IC, SWITCH QUAD 1X1 ",14-SOIC,SMT,NXP SEMICONDUCTORS,74HCT4066D,568-8177-1-ND,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=568-8177-1-ND
+29,1,U2,DUAL 4BIT BINRY COUNTR,14-SOIC,SMT,TEXAS INSTRUMENTS,SN74HC393DR,296-14851-1-ND,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=296-14851-1-ND
+30,1,U3,IC VREF GND REF PREC ADJ,8-SOIC,SMT,TEXAS INSTRUMENTS,TLE2426CD,296-6547-5-ND,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=296-6547-5-ND
+31,1,U4,IC Quad 2-IN NAND Gate,14-SOIC,SMT,TEXAS INSTRUMENTS,SN74LV00ADR,296-1670-1-ND,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=296-1670-1-ND
+32,1,X1,CRYSTAL 16MHZ 18PF THRU,HC49/US,Through-hole,CITIZEN FINETECH MIYOTA,HC49US-16.000MABJ-UB,300-6034-ND,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=300-6034-ND
+33,,S1-3,"SHUNT JUMPER .1""",N/A,N/A,3M,969102-0000-DA,3M9580-ND,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=3M9580-ND
+,,,,,,,,,
+Notes:,C13 and S1-3 do not need to be placed,,,,,,,,
