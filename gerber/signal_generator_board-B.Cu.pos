@@ -1,6 +1,8 @@
-### Module positions - created on 11/09/2013 1:30:21 PM ###
+### Module positions - created on 05/08/2014 12:49:15 PM ###
 ### Printed by Pcbnew version pcbnew (2013-07-07 BZR 4022)-stable
 ## Unit = inches, Angle = deg.
 ## Side : F.Cu
 # Ref    Val                  Package         PosX       PosY        Rot     Side
+C17      0.1uF            SM1206              4.2910    -2.4350     180.0    B.Cu
+C18      0.1uF            SM1206              4.2065    -1.9945       0.0    B.Cu
 ## End
