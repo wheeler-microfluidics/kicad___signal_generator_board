@@ -19,7 +19,7 @@ Item #,Qty,Reference Designator,Description,Package,Type,Manufacturer,Part No.,D
 18,1,IC8,"IC, Programmable Oscillator, SPI, 8-MSOP",8-MSOP,SMT,LINEAR TECHNOLOGY,LTC6903CMS8#PBF,LTC6903CMS8%23PBF-ND,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=LTC6903CMS8%23PBF-ND
 19,2,"P1, P4","Connector, PCB, Right Angle, 10 Position",header,Through-hole,OMRON ELECTRONICS INC,XG4A-1034,OR1001-ND,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=OR1001-ND
 20,1,P2,"Mini-Fit Jr Connection header, 8POS 4.2MM R/A TIN",header,Through-hole,MOLEX INC,39301080,WM1354-ND,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=WM1354-ND
-21,1,P3,"Male Headers Pins, 0.1"" spacing, 6x1, R/A",header,Through-hole,SULLINS CONNECTOR SOLUTIONS,NRPN061PARN-RC,S5802-06-ND,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=S5802-06-ND
+21,1,P3,"Male Headers Pins, 0.1"" spacing, 6x1, R/A",header,Through-hole,SULLINS CONNECTOR SOLUTIONS,PRPC0065BAN-M71RC ,S1111EC-06-ND ,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=S1111EC-06-ND
 22,1,P5,"Connector, PCB, Right Angle, BNC",connector,Through-hole,TYCO ELECTRONICS,5227161-2,A32245-ND,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=A32245-ND
 23,1,P6,"Male Headers Pins, 0.1"" spacing, 3x2",header,Through-hole,HARWIN INC,M20-9980346,952-2121-ND,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=952-2121-ND
 24,1,P7,"Male Headers Pins, 0.1"" spacing, 3x1",header,Through-hole,OMRON ELECTRONICS INC,XG8S-0331,OR1104-ND,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=OR1104-ND
