@@ -31,6 +31,9 @@ Item #,Qty,Reference Designator,Description,Package,Type,Manufacturer,Part No.,D
 30,1,U3,IC VREF GND REF PREC ADJ,8-SOIC,SMT,TEXAS INSTRUMENTS,TLE2426CD,296-6547-5-ND,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=296-6547-5-ND
 31,1,U4,IC Quad 2-IN NAND Gate,14-SOIC,SMT,TEXAS INSTRUMENTS,SN74LV00ADR,296-1670-1-ND,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=296-1670-1-ND
 32,1,X1,CRYSTAL 16MHZ 18PF THRU,HC49/US,Through-hole,CITIZEN FINETECH MIYOTA,HC49US-16.000MABJ-UB,300-6034-ND,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=300-6034-ND
-33,,S1-3,"SHUNT JUMPER .1""",N/A,N/A,3M,969102-0000-DA,3M9580-ND,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=3M9580-ND
+33,3,S1-3,"SHUNT JUMPER .1""",N/A,N/A,3M,969102-0000-DA,3M9580-ND,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=3M9580-ND
+34,1,H1,Hex Nut for BNC,N/A,N/A,TE CONNECTIVITY,1-1634816-0,A97566-ND,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=A97566-ND
+35,2,H2,Lock washer for BNC,N/A,N/A,TE CONNECTIVITY,1-1634817-0,A97567-ND,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=A97567-ND
 ,,,,,,,,,
 Notes:,C13 and S1-3 do not need to be placed,,,,,,,,
+,H2 is optional,,,,,,,,
