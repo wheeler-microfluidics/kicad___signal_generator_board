@@ -30,14 +30,13 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:wheelerlab
-LIBS:signal_generator_board-cache
 EELAYER 27 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "Signal generator board"
-Date "28 may 2014"
+Date "4 mar 2015"
 Rev "1.2"
 Comp "Ryan Fobel"
 Comment1 ""
@@ -541,7 +540,7 @@ NoConn ~ 4100 5750
 NoConn ~ 4100 5850
 NoConn ~ 4100 5950
 Text Notes 2950 4200 0    60   ~ 0
-Divide frequency by 16
+Divide frequency by 32
 Text GLabel 5850 4550 0    60   Input ~ 0
 VGND
 $Comp
