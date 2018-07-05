@@ -6,8 +6,8 @@ Item #,Qty,Reference Designator,Description,Package,Type,Manufacturer,Part No.,D
 5,1,C4,"Capacitor, Ceramic, 4700pF, 50V, 5%, NP0, 1206",1206,SMT,"SAMSUNG ELECTRO-MECHANICS AMERICA, INC",CL31C472JBFNFNE,1276-3280-1-ND,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=1276-3280-1-N
 6,1,C6,"Capacitor, Ceramic, 6800pF, 50V, 5%, NP0, 1206",1206,SMT,"SAMSUNG ELECTRO-MECHANICS AMERICA, INC",CL31C682JBHNNNE,1276-3292-1-ND,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=1276-3292-1-ND
 7,1,C7,"Capacitor, Ceramic, 680pF, 630V, 5%, NP0, 1206",1206,SMT,TDK Corporation,C3216C0G2J681J085AA,445-2341-1-ND,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=445-2341-1-ND
-8,5,"R1, R4-6, R10","Resistor, Metal Film, 10k, 1%, 1/4W, 1206",1206,SMT,STACKPOLE ELECTRONICS INC,RMCF1206FT10K0,RMCF1206FT10K0CT-ND,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=RMCF1206FT10K0CT-ND
-9,1,R2,"Resistor, Metal Film, 1k, 1%, 1/4W, 1206",1206,SMT,STACKPOLE ELECTRONICS INC,RMCF1206FT1K00,RMCF1206FT1K00,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=RMCF1206FT1K00
+8,2,"R1, R4,","Resistor, Metal Film, 10k, 1%, 1/4W, 1206",1206,SMT,STACKPOLE ELECTRONICS INC,RMCF1206FT10K0,RMCF1206FT10K0CT-ND,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=RMCF1206FT10K0CT-ND
+9,4,"R2, R5-6, R10","Resistor, Metal Film, 1k, 1%, 1/4W, 1206",1206,SMT,STACKPOLE ELECTRONICS INC,RMCF1206FT1K00,RMCF1206FT1K00,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=RMCF1206FT1K00
 10,1,R3,"Resistor, Metal Film, 1M, 1%, 1/4W, 1206",1206,SMT,STACKPOLE ELECTRONICS INC,RMCF1206FT1M00,RMCF1206FT1M00CT-ND,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=RMCF1206FT1M00CT-ND
 11,1,R8,"Resistor, Metal Film, 24k, 5%, 1/4W, 1206",1206,SMT,STACKPOLE ELECTRONICS INC,RMCF1206JT24K0,RMCF1206JT24K0CT-ND,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=RMCF1206JT24K0CT-ND
 12,1,R9,"Resistor, Metal Film, 100k, 1%, 1/4W, 1206",1206,SMT,STACKPOLE ELECTRONICS INC,RMCF1206FT100K,RMCF1206FT100KCT-ND,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=RMCF1206FT100KCT-ND
